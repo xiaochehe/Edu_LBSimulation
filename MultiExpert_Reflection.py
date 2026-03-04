@@ -38,7 +38,7 @@ sheet = wb.active  # 默认第一个工作表
 # # 读取第一行作为表头
 headers = [sheet.cell(row=1, column=col).value for col in range(16, 29)]
 
-# 遍历后续每一行
+# 遍历后续每一行 
 for row in sheet.iter_rows(min_row=2, min_col=16, max_col=30, values_only=False):
     row_number = row[0].row 
     values = [cell.value for cell in row]
