@@ -19,7 +19,7 @@ The LBS framework is designed to model and simulate learner behavior by combinin
 - **Retrieval-augmented behavioral generation**  
   Behavior simulation uses memory retrieval, reflection fusion, and LLM-mediated behavior synthesis.
 
-The framework is **domain-agnostic**, allowing adaptation to various educational contexts, age groups, and cultural settings.
+The framework is domain-agnostic, allowing adaptation to various educational contexts, age groups, and cultural settings.
 
 ---
 
