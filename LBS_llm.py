@@ -15,7 +15,7 @@ def extract_final_prediction(text: str):
         return int(match.group(1))
     return None
 
-# 定义映射关系
+# 定义映射关系 
 mapping = {
     '教育心理学': 'edu_psy',
     '学习科学': 'lea_sci',
